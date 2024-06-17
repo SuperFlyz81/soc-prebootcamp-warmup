@@ -3,24 +3,24 @@
 }
 
 /* Custom Airbnb Cereal font downloaded using the browser Dev Tools' Network tab
-and then implemented using the instructions at: https://css-tricks.com/snippets/css/using-font-face-in-css/
-and: https://www.hacksoft.io/blog/using-multiple-font-files-the-right-way */
+and then implemented using the instructions at https://css-tricks.com/snippets/css/using-font-face-in-css/
+and https://www.hacksoft.io/blog/using-multiple-font-files-the-right-way. */
 @font-face {
   font-family: "Cereal";
   src: url("/fonts/airbnb-cereal-book.woff2") format("woff2");
-  font-weight: 100; /* lighter (relative weight) */
+  font-weight: 100; /* Lighter (relative weight). */
 }
 
 @font-face {
   font-family: "Cereal";
   src: url("/fonts/airbnb-cereal-medium.woff2") format("woff2");
-  font-weight: 400; /* normal */
+  font-weight: 400; /* Normal. */
 }
 
 @font-face {
   font-family: "Cereal";
   src: url("/fonts/airbnb-cereal-bold.woff2") format("woff2");
-  font-weight: 700; /* bold */
+  font-weight: 700; /* Bold. */
 }
 
 body {
@@ -32,4 +32,15 @@ body {
   background-color: #fff;
   margin: 0;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.search-categories-menu {
+  top: 0;
+}
+
+.sticky {
+  /* As taken from the "position: sticky" section in https://www.w3schools.com/css/css_positioning.asp
+  and used in conjunction with the "top: 0" CSS rule under the "search-categories-menu" CSS class selector. */
+  position: -webkit-sticky; /* Safari. */
+  position: sticky;
 }
