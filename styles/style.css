@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Custom Airbnb Cereal font downloaded using the browser Dev Tools' Network tab
+and then implemented using the instructions at: https://css-tricks.com/snippets/css/using-font-face-in-css/
+and: https://www.hacksoft.io/blog/using-multiple-font-files-the-right-way */
+@font-face {
+  font-family: "Cereal";
+  src: url("/fonts/airbnb-cereal-book.woff2") format("woff2");
+  font-weight: 100; /* lighter (relative weight) */
+}
+
+@font-face {
+  font-family: "Cereal";
+  src: url("/fonts/airbnb-cereal-medium.woff2") format("woff2");
+  font-weight: 400; /* normal */
+}
+
+@font-face {
+  font-family: "Cereal";
+  src: url("/fonts/airbnb-cereal-bold.woff2") format("woff2");
+  font-weight: 700; /* bold */
+}
+
+body {
+  font-family: "Cereal", sans-serif;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 1.43;
+  color: #222222;
+  background-color: #fff;
+  margin: 0;
+  -moz-osx-font-smoothing: grayscale;
+}
