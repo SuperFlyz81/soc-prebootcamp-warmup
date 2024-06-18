@@ -6,24 +6,34 @@
   margin: 14px 16px 0 16px;
 }
 
-.categories-section {
-  margin: 12px 24px 12px 24px;
-}
-
 .search-container {
   display: grid;
   grid-template-columns: 42px auto;
   border: 0.5px solid rgba(0, 0, 0, 0.1);
-  border-bottom: 0px;
+  border-bottom-color: transparent;
   border-radius: 40px;
   height: 55.5px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  justify-items: left;
+  align-items: center;
+  min-width: 265px;
 }
 
-.categories-container {
-  display: grid;
-  grid-auto-columns: max-content;
-  grid-auto-flow: column;
-  grid-template-areas: none;
-  grid-template-rows: 74px;
+.search-icon {
+  margin-left: 15px;
+}
+
+.search-text-item {
+  margin-left: 6px;
+  margin-top: 2px;
+}
+
+.search-subtext {
+  font-size: 12px;
+  font-weight: lighter;
+  color: rgb(106, 106, 106);
+}
+
+.search-subtext .bullet {
+  margin: 0 2.5px 0 2.5px;
 }
