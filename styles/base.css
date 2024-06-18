@@ -26,21 +26,18 @@ and https://www.hacksoft.io/blog/using-multiple-font-files-the-right-way. */
 body {
   font-family: "Cereal", sans-serif;
   font-weight: normal;
-  font-size: 0.875rem;
+  font-size: 14px;
   line-height: 1.43;
   color: #222222;
-  background-color: #fff;
+  background-color: #ffffff;
   margin: 0;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.search-categories-menu {
-  top: 0;
-}
-
 .sticky {
-  /* As taken from the "position: sticky" section in https://www.w3schools.com/css/css_positioning.asp
-  and used in conjunction with the "top: 0" CSS rule under the "search-categories-menu" CSS class selector. */
+  /* As taken from the "position: sticky" section in https://www.w3schools.com/css/css_positioning.asp.
+  And used in conjunction with the "top: 0" CSS rule in, for example,
+  the "search-categories-menu" CSS class selector in the header.css file. */
   position: -webkit-sticky; /* Safari. */
   position: sticky;
 }
