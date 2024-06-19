@@ -41,3 +41,15 @@ body {
   position: -webkit-sticky; /* Safari. */
   position: sticky;
 }
+
+.lighter-text-weight {
+  font-weight: lighter;
+}
+
+.lighter-text-color {
+  color: rgb(106, 106, 106);
+}
+
+.underline-text {
+  text-decoration: underline;
+}

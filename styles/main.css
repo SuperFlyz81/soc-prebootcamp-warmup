@@ -5,4 +5,66 @@
 .property-card-component {
   display: flex;
   flex-direction: column;
+  max-width: 480px;
+  font-size: 15px;
+  line-height: 1.38;
+  /* position: relative is required  below to position the favourite "heart" svg image absolutely to this element.
+  As taken from the "position: absolute" section at: https://www.w3schools.com/css/css_positioning.asp. */
+  position: relative;
+}
+
+.property-card-image {
+  /* For details on making a truly responsive square
+  (or any other aspect ratio, right-angled shape) in CSS, see:
+  https://hojelse.medium.com/make-a-truly-responsive-square-in-css-d917f5ef286d. */
+  aspect-ratio: 1.05 / 1;
+  width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.property-card-favourite {
+  position: absolute;
+  top: 15px;
+  right: 16px;
+  /* Original styles from svg image moved here to save space/avoid duplication in index.html. */
+  display: block;
+  fill: rgba(0, 0, 0, 0.5);
+  height: 24px;
+  width: 24px;
+  stroke: #ffffff;
+  stroke-width: 2px;
+  overflow: visible;
+}
+
+.property-card-favourite:hover {
+  top: 14px;
+  right: 15px;
+  height: 26px;
+  width: 26px;
+}
+
+.property-card-title-rating-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10.5px;
+}
+
+.property-card-rating {
+  display: flex;
+  align-items: center;
+}
+
+.property-card-rating svg {
+  margin-right: 4px;
+  /* Original styles from svg image moved here to save space/avoid duplication in index.html. */
+  display: block;
+  height: 12px;
+  width: 12px;
+  fill: currentcolor;
+}
+
+.property-card-total-price {
+  margin-top: 6px;
 }
