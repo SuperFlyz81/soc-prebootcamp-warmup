@@ -1,0 +1,8 @@
+.property-cards-section {
+  margin: 24px 24px 32px 24px;
+}
+
+.property-card-component {
+  display: flex;
+  flex-direction: column;
+}
