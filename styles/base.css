@@ -3,8 +3,8 @@
 }
 
 /* Custom Airbnb Cereal font downloaded using the browser Dev Tools' Network tab
-and then implemented using the instructions at https://css-tricks.com/snippets/css/using-font-face-in-css/
-and https://www.hacksoft.io/blog/using-multiple-font-files-the-right-way. */
+and then implemented using the instructions at: https://css-tricks.com/snippets/css/using-font-face-in-css/
+and at: https://www.hacksoft.io/blog/using-multiple-font-files-the-right-way. */
 @font-face {
   font-family: "Cereal";
   src: url("/fonts/airbnb-cereal-book.woff2") format("woff2");
@@ -35,7 +35,7 @@ body {
 }
 
 .sticky {
-  /* As taken from the "position: sticky" section in https://www.w3schools.com/css/css_positioning.asp.
+  /* As taken from the "position: sticky" section at: https://www.w3schools.com/css/css_positioning.asp.
   And used in conjunction with the "top: 0" CSS rule in, for example,
   the "search-categories-menu" CSS class selector in the header.css file. */
   position: -webkit-sticky; /* Safari. */

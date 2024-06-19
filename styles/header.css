@@ -56,6 +56,17 @@
   flex-direction: column;
   align-items: center;
   text-wrap: nowrap;
+  /* CSS filters are used here to dynamically change all category items' image and text colors to a grey tint.
+  And this CSS filter is then unset in the category item's hover state below,
+  returning the "hovered over" category item to its original black foreground colour.
+  For details on CSS filters, see: https://stackoverflow.com/questions/22252472/how-to-change-the-color-of-an-svg-element
+  and: "Target color" field at: https://codepen.io/sosuke/pen/Pjoqqp. */
+  filter: invert(43%) sepia(1%) saturate(0%) hue-rotate(357deg) brightness(94%)
+    contrast(90%);
+}
+
+.category-item:hover {
+  filter: none;
 }
 
 .category-image {
