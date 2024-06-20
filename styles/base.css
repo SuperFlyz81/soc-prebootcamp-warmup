@@ -7,19 +7,19 @@ and then implemented using the instructions at: https://css-tricks.com/snippets/
 and at: https://www.hacksoft.io/blog/using-multiple-font-files-the-right-way. */
 @font-face {
   font-family: "Cereal";
-  src: url("/fonts/airbnb-cereal-book.woff2") format("woff2");
+  src: url("../fonts/airbnb-cereal-book.woff2") format("woff2");
   font-weight: 100; /* Lighter (relative weight). */
 }
 
 @font-face {
   font-family: "Cereal";
-  src: url("/fonts/airbnb-cereal-medium.woff2") format("woff2");
+  src: url("../fonts/airbnb-cereal-medium.woff2") format("woff2");
   font-weight: 400; /* Normal. */
 }
 
 @font-face {
   font-family: "Cereal";
-  src: url("/fonts/airbnb-cereal-bold.woff2") format("woff2");
+  src: url("../fonts/airbnb-cereal-bold.woff2") format("woff2");
   font-weight: 700; /* Bold. */
 }
 
