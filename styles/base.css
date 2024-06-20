@@ -53,3 +53,8 @@ body {
 .underline-text {
   text-decoration: underline;
 }
+
+a {
+  text-decoration: none;
+  color: #222222;
+}

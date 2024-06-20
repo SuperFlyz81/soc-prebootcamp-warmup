@@ -1,0 +1,49 @@
+footer {
+  background-color: #f7f7f7;
+}
+
+.footer-section {
+  padding: 24px 24px 18px 24px;
+}
+
+.hosting-component {
+  line-height: 18px;
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: 18px;
+}
+
+.footer-section h3 {
+  font-size: 14px;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.hosting-component a {
+  display: block;
+  line-height: 32px;
+}
+
+.hosting-component a:hover {
+  text-decoration: underline;
+}
+
+.company-region-component {
+  margin-top: 24px;
+}
+
+.language-currency-item {
+  display: grid;
+  grid-template-columns: 102px 42px;
+  grid-column-gap: 24px;
+}
+
+.language-currency-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-currency-sign {
+  font-size: 16px;
+}
