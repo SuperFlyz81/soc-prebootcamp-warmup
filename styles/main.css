@@ -8,6 +8,7 @@
   max-width: 480px;
   font-size: 15px;
   line-height: 1.38;
+  margin-bottom: 40px;
   /* position: relative is required  below to position the favourite "heart" svg image absolutely to this element.
   As taken from the "position: absolute" section at: https://www.w3schools.com/css/css_positioning.asp. */
   position: relative;
