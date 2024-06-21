@@ -7,7 +7,11 @@
 }
 
 .search-section {
+  display: grid;
+  grid-template-columns: auto min-content;
+  align-items: center;
   margin: 0 16px;
+  column-gap: 10px;
 }
 
 .search-component {
@@ -43,6 +47,28 @@
 
 .search-subtext .bullet {
   margin: 0 2.5px 0 2.5px;
+}
+
+.filter-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #b0b0b0;
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+
+.filter-button svg {
+  /* Original styles from svg image moved here to save space/avoid duplication in index.html. */
+  display: block;
+  fill: none;
+  height: 16px;
+  width: 16px;
+  stroke: currentcolor;
+  stroke-width: 4px;
+  overflow: visible;
 }
 
 .categories-nav {
