@@ -1,3 +1,7 @@
+/*
+Base (i.e., global) styles
+*/
+
 * {
   box-sizing: border-box;
 }
@@ -8,19 +12,19 @@ and at: https://www.hacksoft.io/blog/using-multiple-font-files-the-right-way. */
 @font-face {
   font-family: "Cereal";
   src: url("../fonts/airbnb-cereal-book.woff2") format("woff2");
-  font-weight: 100; /* Lighter (relative weight). */
+  font-weight: 100; /* Lighter (relative weight) */
 }
 
 @font-face {
   font-family: "Cereal";
   src: url("../fonts/airbnb-cereal-medium.woff2") format("woff2");
-  font-weight: 400; /* Normal. */
+  font-weight: 400; /* Normal */
 }
 
 @font-face {
   font-family: "Cereal";
   src: url("../fonts/airbnb-cereal-bold.woff2") format("woff2");
-  font-weight: 700; /* Bold. */
+  font-weight: 700; /* Bold */
 }
 
 body {
@@ -38,7 +42,7 @@ body {
   /* As taken from the "position: sticky" section at: https://www.w3schools.com/css/css_positioning.asp.
   And used in conjunction with the "top: 0" CSS rule in, for example,
   the "search-categories-menu" CSS class selector in the header.css file. */
-  position: -webkit-sticky; /* Safari. */
+  position: -webkit-sticky; /* Safari */
   position: sticky;
 }
 
